@@ -27,7 +27,6 @@
 		6546E1211CDC882300A0DE83 /* YhsHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6546E1201CDC882300A0DE83 /* YhsHomeModel.m */; };
 		6546E1241CDC8D6F00A0DE83 /* YhsHomeTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6546E1231CDC8D6F00A0DE83 /* YhsHomeTopView.m */; };
 		6546E1271CDC8EE700A0DE83 /* 使用工具类必读 in Resources */ = {isa = PBXBuildFile; fileRef = 6546E1261CDC8EE700A0DE83 /* 使用工具类必读 */; };
-		6546E12A1CDC8EEE00A0DE83 /* FJQScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6546E1291CDC8EEE00A0DE83 /* FJQScrollView.m */; };
 		6546E1511CDC8FE400A0DE83 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 6546E1331CDC8FE400A0DE83 /* NSData+ImageContentType.m */; };
 		6546E1521CDC8FE400A0DE83 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6546E1351CDC8FE400A0DE83 /* SDImageCache.m */; };
 		6546E1531CDC8FE400A0DE83 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 6546E1371CDC8FE400A0DE83 /* SDWebImageCompat.m */; };
@@ -42,6 +41,10 @@
 		6546E15C1CDC8FE400A0DE83 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6546E14A1CDC8FE400A0DE83 /* UIImageView+HighlightedWebCache.m */; };
 		6546E15D1CDC8FE400A0DE83 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6546E14C1CDC8FE400A0DE83 /* UIImageView+WebCache.m */; };
 		6546E15E1CDC8FE400A0DE83 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6546E14E1CDC8FE400A0DE83 /* UIView+WebCacheOperation.m */; };
+		658014BA1CE034B9002256DD /* bg_crjyy.png in Resources */ = {isa = PBXBuildFile; fileRef = 658014B91CE034B9002256DD /* bg_crjyy.png */; };
+		658014BC1CE034C7002256DD /* bg_jtwfcx.png in Resources */ = {isa = PBXBuildFile; fileRef = 658014BB1CE034C7002256DD /* bg_jtwfcx.png */; };
+		658014C21CE03B42002256DD /* DCPicScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 658014BF1CE03B42002256DD /* DCPicScrollView.m */; };
+		658014C31CE03B42002256DD /* DCWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 658014C11CE03B42002256DD /* DCWebImageManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,8 +82,6 @@
 		6546E1221CDC8D6F00A0DE83 /* YhsHomeTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YhsHomeTopView.h; sourceTree = "<group>"; };
 		6546E1231CDC8D6F00A0DE83 /* YhsHomeTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YhsHomeTopView.m; sourceTree = "<group>"; };
 		6546E1261CDC8EE700A0DE83 /* 使用工具类必读 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "使用工具类必读"; sourceTree = "<group>"; };
-		6546E1281CDC8EEE00A0DE83 /* FJQScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJQScrollView.h; sourceTree = "<group>"; };
-		6546E1291CDC8EEE00A0DE83 /* FJQScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJQScrollView.m; sourceTree = "<group>"; };
 		6546E1321CDC8FE400A0DE83 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
 		6546E1331CDC8FE400A0DE83 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
 		6546E1341CDC8FE400A0DE83 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
@@ -110,6 +111,12 @@
 		6546E14C1CDC8FE400A0DE83 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		6546E14D1CDC8FE400A0DE83 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		6546E14E1CDC8FE400A0DE83 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		658014B91CE034B9002256DD /* bg_crjyy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_crjyy.png; sourceTree = "<group>"; };
+		658014BB1CE034C7002256DD /* bg_jtwfcx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_jtwfcx.png; sourceTree = "<group>"; };
+		658014BE1CE03B42002256DD /* DCPicScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPicScrollView.h; sourceTree = "<group>"; };
+		658014BF1CE03B42002256DD /* DCPicScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPicScrollView.m; sourceTree = "<group>"; };
+		658014C01CE03B42002256DD /* DCWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCWebImageManager.h; sourceTree = "<group>"; };
+		658014C11CE03B42002256DD /* DCWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCWebImageManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,8 +217,8 @@
 		6546E0DE1CDC43BB00A0DE83 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				658014BD1CE03B42002256DD /* 轮播图 */,
 				6546E1261CDC8EE700A0DE83 /* 使用工具类必读 */,
-				6546E1251CDC8ED700A0DE83 /* 轮播图 */,
 				6546E11B1CDC6D8600A0DE83 /* YhsCommon.h */,
 				6546E11C1CDC6D8600A0DE83 /* YhsCommon.m */,
 			);
@@ -264,6 +271,8 @@
 		6546E0EA1CDC48AF00A0DE83 /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
+				658014BB1CE034C7002256DD /* bg_jtwfcx.png */,
+				658014B91CE034B9002256DD /* bg_crjyy.png */,
 				6546E1091CDC4E8100A0DE83 /* YhsBaseHomeView.h */,
 				6546E10A1CDC4E8100A0DE83 /* YhsBaseHomeView.m */,
 				6546E1061CDC4DCA00A0DE83 /* YhsBaseHomeTableViewCell.h */,
@@ -299,15 +308,6 @@
 				6546E1201CDC882300A0DE83 /* YhsHomeModel.m */,
 			);
 			path = "首页";
-			sourceTree = "<group>";
-		};
-		6546E1251CDC8ED700A0DE83 /* 轮播图 */ = {
-			isa = PBXGroup;
-			children = (
-				6546E1281CDC8EEE00A0DE83 /* FJQScrollView.h */,
-				6546E1291CDC8EEE00A0DE83 /* FJQScrollView.m */,
-			);
-			path = "轮播图";
 			sourceTree = "<group>";
 		};
 		6546E12E1CDC8FE400A0DE83 /* SDWebImage */ = {
@@ -352,6 +352,18 @@
 				6546E14E1CDC8FE400A0DE83 /* UIView+WebCacheOperation.m */,
 			);
 			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		658014BD1CE03B42002256DD /* 轮播图 */ = {
+			isa = PBXGroup;
+			children = (
+				658014BE1CE03B42002256DD /* DCPicScrollView.h */,
+				658014BF1CE03B42002256DD /* DCPicScrollView.m */,
+				658014C01CE03B42002256DD /* DCWebImageManager.h */,
+				658014C11CE03B42002256DD /* DCWebImageManager.m */,
+			);
+			name = "轮播图";
+			path = DCPicscrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,10 +423,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				658014BA1CE034B9002256DD /* bg_crjyy.png in Resources */,
 				6546E0D21CDC427E00A0DE83 /* LaunchScreen.storyboard in Resources */,
 				6546E1151CDC677200A0DE83 /* YhsHome1TableViewCell.xib in Resources */,
 				6546E11A1CDC678300A0DE83 /* YhsHome2TableViewCell.xib in Resources */,
 				6546E0CF1CDC427E00A0DE83 /* Assets.xcassets in Resources */,
+				658014BC1CE034C7002256DD /* bg_jtwfcx.png in Resources */,
 				6546E1101CDC674A00A0DE83 /* YhsHome0TableViewCell.xib in Resources */,
 				6546E0CD1CDC427E00A0DE83 /* Main.storyboard in Resources */,
 				6546E1271CDC8EE700A0DE83 /* 使用工具类必读 in Resources */,
@@ -438,8 +452,9 @@
 				6546E0C71CDC427E00A0DE83 /* AppDelegate.m in Sources */,
 				6546E1051CDC4D8800A0DE83 /* YhsBaseTableViewCell.m in Sources */,
 				6546E1191CDC678300A0DE83 /* YhsHome2TableViewCell.m in Sources */,
-				6546E12A1CDC8EEE00A0DE83 /* FJQScrollView.m in Sources */,
 				6546E1211CDC882300A0DE83 /* YhsHomeModel.m in Sources */,
+				658014C21CE03B42002256DD /* DCPicScrollView.m in Sources */,
+				658014C31CE03B42002256DD /* DCWebImageManager.m in Sources */,
 				6546E1241CDC8D6F00A0DE83 /* YhsHomeTopView.m in Sources */,
 				6546E1511CDC8FE400A0DE83 /* NSData+ImageContentType.m in Sources */,
 				6546E15A1CDC8FE400A0DE83 /* UIImage+GIF.m in Sources */,

@@ -46,7 +46,9 @@
     }
     
     //设置tableview的headerview
-//    self.tableView.tableHeaderView = []
+    self.tableView.tableHeaderView = [[YhsBaseHomeView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 100) andDataArr:@[@"bg_crjyy.png" ,@"bg_jtwfcx.png"] clickHandler:^(NSInteger num) {
+        NSLog(@"%ld",(long)num);
+    }];
 }
 
 

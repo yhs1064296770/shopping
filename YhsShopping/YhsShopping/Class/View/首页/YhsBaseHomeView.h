@@ -13,5 +13,6 @@
 
 @interface YhsBaseHomeView : UIView
 
+- (id)initWithFrame:(CGRect)frame andDataArr:(NSArray*)images clickHandler:(void(^)(NSInteger num)) block;
 
 @end
