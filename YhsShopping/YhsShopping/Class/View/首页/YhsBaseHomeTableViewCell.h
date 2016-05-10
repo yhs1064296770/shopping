@@ -14,6 +14,12 @@
 @property (weak, nonatomic) IBOutlet UILabel *YhsHomeLabel1;
 
 @property (weak, nonatomic) IBOutlet UIButton *YhsHomeButton0;
+@property (weak, nonatomic) IBOutlet UIButton *YhsHomeButton1;
+@property (weak, nonatomic) IBOutlet UIButton *YhsHomeButton2;
+@property (weak, nonatomic) IBOutlet UIButton *YhsHomeButton3;
+@property (weak, nonatomic) IBOutlet UIButton *YhsHomeButton4;
+@property (weak, nonatomic) IBOutlet UIButton *YhsHomeButton5;
+@property (weak, nonatomic) IBOutlet UIButton *YhsHomeButton6;
 
 
 @end

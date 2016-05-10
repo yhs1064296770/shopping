@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "YhsShopping/Class/View/&#x9996;&#x9875;/YhsBaseHomeView.m"
-            timestampString = "484479791.941764"
+            filePath = "YhsShopping/Class/ViewController/BaseViewController.m"
+            timestampString = "484565213.513326"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "103"
-            endingLineNumber = "103"
-            landmarkName = "-TapLabel:"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "-setNavigation:rightButton:andNeedLeftButton:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

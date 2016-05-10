@@ -43,7 +43,11 @@
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
                         </textField>
-                        <barButtonItem key="rightBarButtonItem" title="确定" id="Q7T-jb-cUl"/>
+                        <barButtonItem key="rightBarButtonItem" title="确定" id="Q7T-jb-cUl">
+                            <connections>
+                                <action selector="clickRightItem:" destination="BYZ-38-t0r" id="wOC-VR-JLP"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="xGX-Qd-jY6" id="aHz-RY-lj7"/>
