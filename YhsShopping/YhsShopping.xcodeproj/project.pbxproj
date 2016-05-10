@@ -45,6 +45,7 @@
 		658014BC1CE034C7002256DD /* bg_jtwfcx.png in Resources */ = {isa = PBXBuildFile; fileRef = 658014BB1CE034C7002256DD /* bg_jtwfcx.png */; };
 		658014C21CE03B42002256DD /* DCPicScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 658014BF1CE03B42002256DD /* DCPicScrollView.m */; };
 		658014C31CE03B42002256DD /* DCWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 658014C11CE03B42002256DD /* DCWebImageManager.m */; };
+		65A89ACC1CE07C940011C6E0 /* YHSTitleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A89ACB1CE07C940011C6E0 /* YHSTitleScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -117,6 +118,8 @@
 		658014BF1CE03B42002256DD /* DCPicScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPicScrollView.m; sourceTree = "<group>"; };
 		658014C01CE03B42002256DD /* DCWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCWebImageManager.h; sourceTree = "<group>"; };
 		658014C11CE03B42002256DD /* DCWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCWebImageManager.m; sourceTree = "<group>"; };
+		65A89ACA1CE07C940011C6E0 /* YHSTitleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHSTitleScrollView.h; sourceTree = "<group>"; };
+		65A89ACB1CE07C940011C6E0 /* YHSTitleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHSTitleScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +220,7 @@
 		6546E0DE1CDC43BB00A0DE83 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				65A89AC91CE07C680011C6E0 /* 标题滑动栏 */,
 				658014BD1CE03B42002256DD /* 轮播图 */,
 				6546E1261CDC8EE700A0DE83 /* 使用工具类必读 */,
 				6546E11B1CDC6D8600A0DE83 /* YhsCommon.h */,
@@ -366,6 +370,15 @@
 			path = DCPicscrollView;
 			sourceTree = "<group>";
 		};
+		65A89AC91CE07C680011C6E0 /* 标题滑动栏 */ = {
+			isa = PBXGroup;
+			children = (
+				65A89ACA1CE07C940011C6E0 /* YHSTitleScrollView.h */,
+				65A89ACB1CE07C940011C6E0 /* YHSTitleScrollView.m */,
+			);
+			path = "标题滑动栏";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -465,6 +478,7 @@
 				6546E15C1CDC8FE400A0DE83 /* UIImageView+HighlightedWebCache.m in Sources */,
 				6546E1541CDC8FE400A0DE83 /* SDWebImageDecoder.m in Sources */,
 				6546E1521CDC8FE400A0DE83 /* SDImageCache.m in Sources */,
+				65A89ACC1CE07C940011C6E0 /* YHSTitleScrollView.m in Sources */,
 				6546E1531CDC8FE400A0DE83 /* SDWebImageCompat.m in Sources */,
 				6546E0C41CDC427E00A0DE83 /* main.m in Sources */,
 				6546E1561CDC8FE400A0DE83 /* SDWebImageDownloaderOperation.m in Sources */,

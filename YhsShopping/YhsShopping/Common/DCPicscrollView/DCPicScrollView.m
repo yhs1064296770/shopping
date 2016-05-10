@@ -45,7 +45,7 @@
     _MaxImageCount = MaxImageCount;
     
     [self prepareImageView];
-//    [self preparePageControl];
+    [self preparePageControl];
     
     [self setUpTimer];
     
@@ -122,9 +122,13 @@
     page.currentPageIndicatorTintColor =  [UIColor whiteColor];
     page.numberOfPages = _MaxImageCount;
     page.currentPage = 0;
+    CGSize pointSize = [page sizeForNumberOfPages:_MaxImageCount];
+    
+    CGFloat page_x = -(page.bounds.size.width - pointSize.width) / 2 ;
+    
+    [page setBounds:CGRectMake(page_x+40, page.bounds.origin.y, page.bounds.size.width, page.bounds.size.height)];
     
     [self addSubview:page];
-    
     
     _PageControl = page;
 }

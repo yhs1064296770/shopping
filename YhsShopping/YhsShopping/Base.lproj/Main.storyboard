@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--首页-->
+        <!--Yhs Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="YhsHomeViewController" sceneMemberID="viewController">
@@ -34,7 +34,17 @@
                             <constraint firstItem="xGX-Qd-jY6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="qqS-bw-eX0"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="首页" id="UFh-mY-Kne"/>
+                    <navigationItem key="navigationItem" id="UFh-mY-Kne">
+                        <nil key="title"/>
+                        <barButtonItem key="leftBarButtonItem" title="扫描" id="Sct-3I-Tsw"/>
+                        <textField key="titleView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="🔍查看新闻" textAlignment="natural" minimumFontSize="17" id="DcY-oq-eXe">
+                            <rect key="frame" x="91" y="7" width="138" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <barButtonItem key="rightBarButtonItem" title="确定" id="Q7T-jb-cUl"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="xGX-Qd-jY6" id="aHz-RY-lj7"/>
                     </connections>
@@ -70,6 +80,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="rGh-I6-obT">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.95214342949999997" green="0.71472562969999998" blue="0.3702235975" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
