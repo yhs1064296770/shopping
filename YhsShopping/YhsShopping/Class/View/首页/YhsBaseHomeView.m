@@ -113,7 +113,7 @@ typedef void (^block) (NSInteger num);
             //点击后自动居中
             [_titleScrollView setContentOffset:CGPointMake(_titleScrollView.contentSize.width- self.frame.size.width, nowLabel.frame.origin.y) animated:YES];
         }else{
-            if (nowLabel.frame.origin.x <self.frame.size.width/2) {
+            if (nowLabel.frame.origin.x+nowLabel.frame.size.width/2 <self.frame.size.width/2) {
                 [_titleScrollView setContentOffset:CGPointMake(self.frame.origin.x, 0) animated:YES];
             }else{
                 //点击后自动居中
@@ -124,7 +124,7 @@ typedef void (^block) (NSInteger num);
         if (nowLabel.frame.origin.x <self.frame.size.width/2) {
             [_titleScrollView setContentOffset:CGPointMake(self.frame.origin.x, 0) animated:YES];
         }else{
-            if (nowLabel.frame.origin.x - _titleScrollView.contentSize.width+nowLabel.frame.size.width+self.frame.size.width/2 >0) {
+            if (nowLabel.frame.origin.x - _titleScrollView.contentSize.width+nowLabel.frame.size.width/2+self.frame.size.width/2 >0) {
                 //点击后自动居中
                 [_titleScrollView setContentOffset:CGPointMake(_titleScrollView.contentSize.width- self.frame.size.width, nowLabel.frame.origin.y) animated:YES];
             }else{
